@@ -1,0 +1,23 @@
+{
+  "name": "loopia-api",
+  "description": "A wrapper for https://www.loopia.se/api",
+  "main": "./lib/api.js",
+  "version": "0.1.0",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakobmattsson/loopia-api.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "xmlrpc": "1.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.4.0"
+  },
+  "scripts": {
+    "prepublish": "coffee -c -o lib src"
+  }
+}
