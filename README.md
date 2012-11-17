@@ -10,6 +10,7 @@ Example
 
     var loopia = require('loopia-api');
     var client = loopia.createClient('username', 'password');
+    var domain = 'my-domain.com';
 
     client.getSubdomains(domain, function(error, subdomains) {
       subdomains.forEach(function(subdomain) {
