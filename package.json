@@ -2,7 +2,7 @@
   "name": "loopia-api",
   "description": "A wrapper for https://www.loopia.se/api",
   "main": "./lib/api.js",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
   "repository": {
     "type": "git",
