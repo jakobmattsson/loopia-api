@@ -3,6 +3,9 @@ xmlrpc = require 'xmlrpc'
 exports.createClient = (username, password) ->
   client = xmlrpc.createSecureClient 'https://api.loopia.se/RPCSERV'
 
+  # All the methods starting with "get" returns some actual data.
+  # The rest of the methods only returns a status code, that is "OK" if everything is fine and some kind of error string otherwise.
+
   funcs = [
     'addDomainToAccount'
     'addSubdomain'
